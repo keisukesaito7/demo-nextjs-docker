@@ -1,0 +1,12 @@
+{
+	"name": "Existing Docker Compose (Extend)",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+	],
+	"service": "next",
+	"workspaceFolder": "/usr/src/app",
+	"settings": {
+		"terminal.integrated.shell.linux": null
+	},
+	"extensions": []
+}
