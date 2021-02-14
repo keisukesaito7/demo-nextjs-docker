@@ -1,6 +1,8 @@
+import { FC } from 'react'
+import { AppProps } from 'next/app'
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+const MyApp: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
   return <Component {...pageProps} />
 }
 
